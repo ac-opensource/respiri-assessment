@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_100"
+    tools:context=".today.TodayFragment">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/v_weather_info"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="·"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/grey_300"
+            app:chipIcon="@drawable/ic_drop"
+            app:chipIconSize="16dp"
+            app:chipIconTint="@color/white"
+            app:iconEndPadding="-4dp" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="20/100"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/mint_green"
+            app:chipIcon="@drawable/ic_humidity"
+            app:chipIconSize="12dp"
+            app:chipIconTint="@color/white"
+            app:iconStartPadding="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="50F"
+            app:chipBackgroundColor="@color/white"
+            app:chipIcon="@drawable/ic_cloud"
+            app:chipIconSize="12dp"
+            app:iconStartPadding="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_daily_progress_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/v_weather_info">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_daily_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/today_daily_progress"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_daily_progress_percentage_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="0%"
+                android:textColor="@color/grey_400"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/tv_daily_progress"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_daily_streak_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_daily_streak_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="@string/today_daily_streak"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/tv_daily_streak_value"
+                app:layout_constraintEnd_toStartOf="@+id/tv_daily_streak_value"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/v_daily_progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/tv_daily_progress" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp_symptoms_and_triggers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cv_daily_progress_container" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

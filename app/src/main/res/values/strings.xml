@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">RespiriAssessment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="symptoms_desc">Did any of the following <b>symptoms</b> affect you yesterday?</string>
+    <string name="symptoms_other"><b>+ Other</b></string>
+    <string name="add_medication"><b>+ Add medication</b></string>
+    <string name="log_event_title">Log Event</string>
+    <string name="log_event_desc">Which event do you want to log</string>
+    <string name="log_event_wheeze_recording">Wheeze recording</string>
+    <string name="log_event_medication">Medication</string>
+    <string name="today_daily_progress">Daily progress</string>
+    <string name="today_daily_streak">Daily streak</string>
+    <string name="medications_title">Medications</string>
+    <string name="medications_relievers">Relievers</string>
+    <string name="medications_preventers">Preventers</string>
+    <string name="medications_other_meds">Other meds</string>
+    <string name="medications_no_relievers">No relievers</string>
+    <string name="medications_no_relievers_desc">You have no relievers saved at the moment</string>
+    <string name="medications_add_reliever">Add reliever</string>
+    <string name="symptoms_title"><![CDATA[Symptoms & triggers]]></string>
+    <string name="symptoms_coughing">Coughing</string>
+    <string name="symptoms_wheezing">Wheezing</string>
+    <string name="symptoms_shortness_of_breath">Shortness of breath</string>
+    <string name="symptoms_limits_to_exercise">Limits to exercise</string>
+    <string name="symptoms_chest_tightness">Chest tightness</string>
+    <string name="symptoms_night_wakings">Night wakings</string>
+    <string name="symptoms_add_triggers">+ Add triggers</string>
+    <string name="symptoms_i_had_no_symptoms_yesterday">I had no symptoms yesterday</string>
+</resources>

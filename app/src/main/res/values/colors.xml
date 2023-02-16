@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <color name="dark">#333333</color>
+    <color name="grey_900">#39474E</color>
+    <color name="grey_800">#4A5C65</color>
+    <color name="grey_700">#5A707B</color>
+    <color name="grey_600">#6B8592</color>
+    <color name="grey_500">#7D909B</color>
+    <color name="grey_450">#A4ABB1</color>
+    <color name="grey_400">#BEC2C5</color>
+    <color name="grey_300">#D7DADC</color>
+    <color name="grey_200">#DCE2E5</color>
+    <color name="grey_100">#F2F5F6</color>
+    <color name="grey_50">#F8FBFB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#F5F5F5</color>
+    <color name="white_translucent">#29FFFFFF</color>
+    <color name="blue">#0084FF</color>
+    <color name="light_blue">#6EB3CD</color>
+    <color name="blue_dark">#005AAE</color>
+    <color name="green">#319988</color>
+    <color name="mint_green">#8FC9A3</color>
+    <color name="yellow">#FFB25D</color>
+    <color name="red">#E30613</color>
+    <color name="salmon">#F2816D</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="gradient_general_dark_start">#263136</color>
+    <color name="gradient_general_dark_end">#384A51</color>
+    <color name="gradient_mid_ash_grey_start">#94A4AD</color>
+    <color name="gradient_mid_ash_grey_end">#39474E</color>
+    <color name="gradient_light_ash_grey_start">#D1D8DB</color>
+    <color name="gradient_light_ash_grey_end">#FAFCFC</color>
+    <color name="gradient_purple_start">#7860E1</color>
+    <color name="gradient_purple_end">#8CA8F7</color>
+    <color name="gradient_dark_blue_start">#3871C2</color>
+    <color name="gradient_dark_blue_end">#29517A</color>
+    <color name="gradient_blue_start">#0C81CF</color>
+    <color name="gradient_blue_end">#3AB4A8</color>
+    <color name="gradient_orange_start">#FF726E</color>
+    <color name="gradient_orange_end">#F6C468</color>
+    <color name="gradient_red_start">#EA493F</color>
+    <color name="gradient_red_end">#FF8E4F</color>
+    <color name="gradient_green_start">#15ADAF</color>
+    <color name="gradient_green_end">#21D2A3</color>
+    <color name="gradient_yellow_start">#FFD566</color>
+    <color name="gradient_yellow_end">#FFAA36</color>
+    <color name="grey_900_opacity_75">#BF39474E</color>
+    <color name="grey_900_opacity_90">#E539474E</color>
+    <color name="white_opacity_30">#1EFFFFFF</color>
+    <color name="white_opacity_10">#1AFFFFFF</color>
+
+
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+
+    <color name="ink50">#181818</color>
+    <color name="skye100">#FFFFFF</color>
+    <color name="sand700">#494848</color>
+    <color name="divider">#29FFFFFF</color>
+    <color name="skye300">#F4F2F1</color>
+    <color name="sand500">#7A7978</color>
+</resources>

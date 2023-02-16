@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="32dp"
+    android:paddingTop="24dp"
+    android:paddingBottom="40dp"
+    tools:paddingTop="32dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/log_event_title"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/log_event_desc"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/gray_600"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/shape_rectangle_radius_16_solid_white"
+        android:layout_width="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:src="@drawable/ic_record"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/log_event_wheeze_recording"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/grey_900"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:src="@drawable/ic_chevron_right"
+            android:layout_gravity="center_vertical"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/shape_rectangle_radius_16_solid_white"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:src="@drawable/ic_thermos"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/log_event_medication"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/grey_900"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:src="@drawable/ic_chevron_right"
+            android:layout_gravity="center_vertical"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
